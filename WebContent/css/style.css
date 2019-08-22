@@ -1,0 +1,1140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 14px;
+}
+
+footer {
+    bottom: 0;
+    width: 1000px;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+}
+
+button {
+    background-color: #E6EFFF !important;
+    border: 1px solid #95B8E7;
+    width: 80px !important;
+    height: 24px !important;
+    vertical-align: middle;
+}
+
+/******************************设备连接*****************************************/
+.titOne {
+    width: 700px;
+    margin-top: 10px;
+}
+
+.titOne fieldset {
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #A8B6D1;
+}
+.titOne fieldset .spanTow{
+    margin-right: 20px;
+}
+.titOne fieldset .radSpan {
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+.titOne fieldset .leftDiv {
+    display: inline-block;
+}
+
+.titOne fieldset .rightDiv {
+    display: inline-block;
+    margin-left: 80px!important;
+}
+.titOne fieldset .rightDivOne {
+    display: inline-block;
+    margin-left: 100px!important;
+}
+.titOne fieldset .leftDiv {
+    display: inline-block;
+}
+
+.titOne fieldset .rightDiv {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.titOne fieldset .cenDiv {
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titOne fieldset .selectDiv{
+    display: inline-block;
+    width: 150px;
+    height: 24px;
+    border-color:#95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+.titOne fieldset .threeDiv textarea{
+    resize:none;
+    border-color:#95B8E7;
+    border-radius:5px;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+/******************************盘点测试*****************************************/
+#contentDiv {
+    width: 925px;
+    margin-top: 10px;
+}
+
+#contentDiv .leftDiv {
+    width: 690px;
+    height: 550px;
+    border: 1px solid #A8B6D1;
+    float: left;
+
+}
+
+#contentDiv .titleDivOne {
+    width: 690px;
+    height: 30px;
+    background-color: #E0ECFF;
+    border-bottom: 1px solid #A8B6D1;;
+}
+
+#contentDiv .titleDivTow {
+    width: 690px;
+    border-bottom: 1px solid #A8B6D1;
+
+}
+
+#contentDiv .titleDivTow table {
+    width: 690px;
+    border-collapse: collapse;
+}
+
+#contentDiv .titleDivTow table tr{
+    background-color: #F4F4F4;
+}
+#contentDiv .titleDivTow table tr th {
+    border-left: 1px dashed #c4c4c4;
+    background-color: #F4F4F4;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 115px;
+}
+
+#contentDiv .titleDivTow table tr th:hover {
+    background-color: #E0ECFF;
+}
+
+#contentDiv .titleDivTow table tr th:first-child {
+    border-left: none;
+}
+
+#contentDiv .leftDiv .titleDivThree {
+    width: 690px;
+    height: 490px;
+    overflow-y: auto;
+}
+
+#contentDiv .leftDiv .titleDivThree table {
+    width: 690px;
+    border-collapse: collapse;
+}
+
+#contentDiv .leftDiv .titleDivThree table tr {
+    border-bottom: 1px dashed #c4c4c4;
+}
+
+
+
+#contentDiv .leftDiv .titleDivThree table tr:hover {
+    background-color: #E0ECFF;
+}
+
+#contentDiv .leftDiv table tr td {
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px dashed #c4c4c4;
+    width: 115px;
+    text-align: center;
+}
+
+#contentDiv .leftDiv table tr td:first-child {
+    border-left: none;
+}
+
+#contentDiv .rightDiv {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+#contentDiv .rightDiv div {
+    margin-bottom: 5px;
+}
+
+#contentDiv .rightDiv .marDiv {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+#contentDiv .rightDiv .marDiv .selectDiv{
+    display: inline-block;
+    width: 150px;
+    height: 24px;
+    border-color:#95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+#contentDiv .rightDiv .marDiv .inputDiv{
+    display: inline-block;
+    width: 86px;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#contentDiv .rightDiv button {
+    width: 150px !important;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#contentDiv .rightDiv form fieldset {
+    padding: 10px 0 10px 10px;
+    border: 1px solid #A8B6D1;
+    margin-top: 5px;
+}
+
+#contentDiv .rightDiv form fieldset .selectDiv {
+    display: inline-block;
+    width: 150px;
+    height: 24px;
+    border-color:#95B8E7;
+    border-radius:5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#contentDiv .rightDiv form fieldset .inputDiv {
+    width: 90px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#contentDiv .rightDiv form fieldset .inputs {
+    width: 90px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#contentDiv .rightDiv form fieldset .spans {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+#contentDiv .rightDiv .btnList {
+    width: 70px !important;
+    margin: 0 !important;
+    margin-right: 5px !important;
+    margin-top: 5px !important;
+}
+
+/***************************读写测试************************************/
+form .fieldsets {
+    width: 800px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #A8B6D1;
+}
+
+form .fieldsets .firstDiv {
+    margin-bottom: 10px;
+}
+
+form .fieldsets .firstDiv .spans {
+    margin-right: 5px;
+}
+
+form .fieldsets .firstDiv .inputs {
+    width: 100px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+form .fieldsets .firstDiv .inputDiv {
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+form .fieldsets .nextDiv div {
+    vertical-align: middle;
+    width: 750px;
+}
+
+form .fieldsets .nextDiv .spans {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+form .fieldsets .lastDiv {
+    margin-left: 62px;
+    margin-top: 10px;
+}
+
+form .fieldsets .lastDiv .textbox {
+    height: 40px !important;
+}
+
+form .fieldsets button {
+    height: 32px !important;
+}
+
+form .fieldsets .lastDiv .btnDiv {
+    margin-left: 84px;
+}
+
+form .fieldsets textarea{
+    resize:none;
+    border-color:#95B8E7;
+    border-radius:5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+}
+
+.fieldsets2 textarea{
+    resize:none;
+    border-color:#95B8E7;
+    border-radius:5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+}
+
+    /*****************************权限设置**********************************/
+form .firstFieldset {
+    width: 800px;
+    padding: 20px 0 50px 10px;
+    border: 1px solid #A8B6D1;
+}
+
+form .firstFieldset button {
+    float: right;
+    margin-right: 10px;
+}
+
+form .firstFieldset div {
+    margin-bottom: 20px;
+}
+
+form .firstFieldset span {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+form .firstFieldset .inputDiv {
+    width: 133px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+form .firstFieldset .selectDiv {
+    width: 140px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+/***************天线设置******************/
+.btnDivList {
+    width: 780px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.tabDiv {
+    width: 810px;
+}
+
+.tabDiv .leftDiv {
+    width: 810px;
+    height: 420px;
+    border: 1px solid #A8B6D1;
+    float: left;
+
+}
+
+.tabDiv .titleDivOne {
+    width: 810px;
+    height: 30px;
+    background-color: #E0ECFF;
+    border-bottom: 1px solid #A8B6D1;;
+}
+
+.tabDiv .titleDivTow {
+    width: 810px;
+    height: 30px;
+    border-bottom: 1px solid #A8B6D1;;
+}
+
+.tabDiv .titleDivTow table {
+    width: 810px;
+    border-collapse: collapse;
+}
+
+.tabDiv .titleDivTow table tr {
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #F4F4F4;
+}
+
+.tabDiv .titleDivTow table tr th {
+    border-left: 1px dashed #c4c4c4;
+    background-color: #F4F4F4;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 135px;
+}
+
+.tabDiv .titleDivTow table tr th:hover {
+    background-color: #E0ECFF;
+}
+
+.tabDiv .titleDivTow table tr th:first-child {
+    border-left: none;
+}
+
+.tabDiv .leftDiv .titleDivThree {
+    width: 810px;
+    height: 360px;
+    overflow-y: auto;
+}
+
+.tabDiv .leftDiv .titleDivThree table {
+    width: 810px;
+    border-collapse: collapse;
+}
+
+.tabDiv .leftDiv .titleDivThree table tr {
+    border-bottom: 1px dashed #c4c4c4;
+}
+
+.tabDiv .leftDiv .titleDivThree table tr:hover {
+    background-color: #E0ECFF;
+}
+
+.tabDiv .leftDiv table tr td {
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px dashed #c4c4c4;
+    width: 135px;
+    text-align: center;
+}
+
+.tabDiv .leftDiv table tr td:first-child {
+    border-left: none;
+}
+
+form .fieldsetContent {
+    width: 800px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #A8B6D1;
+    margin-top: 10px;
+}
+
+.fieldsetContent div {
+    margin-top: 10px;
+}
+
+.fieldsetContent div .spans {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.fieldsetContent div button {
+    margin-left: 530px;
+}
+
+.fieldsetContent div button:last-child {
+    margin-left: 10px;
+}
+
+.fieldsetContent .selectDiv {
+    width: 120px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.fieldsetContent .inputDiv {
+    width: 110px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+.fieldsetContent .inputs {
+    width: 113px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.fieldsetContent .inputsOne {
+    width: 47px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+.setAntenna{
+    white-space: nowrap;
+}
+/***************通讯设置******************/
+.content {
+    width: 800px;
+    margin-top: 6px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #A8B6D1;
+}
+
+.content div {
+    margin-bottom: 10px;
+}
+
+.content .firSpan {
+    margin-left: 30px;
+}
+
+.content .selectDiv {
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.content .btnOneDiv {
+    margin-left: 6px;
+}
+
+.content .inDiv .inputDiv{
+    width: 37px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.content .inDiv .spansOne {
+    margin-left: 376px;
+}
+
+.content .divOne {
+    margin-left: 400px;
+}
+
+.content .divOne .inputs {
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.content .divTow .inputs {
+    width: 113px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.content .divTow .selectDiv {
+    width: 120px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+.content .divTow .selectDivOne {
+    width: 102px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+.content .divTow .spansTow {
+    margin-left: 20px;
+}
+
+.content .divThree {
+    margin-left: 600px;
+}
+
+.content .spansFour .selectDiv {
+    width: 80px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.content div .spansFive {
+    margin-left: 10px;
+}
+
+.content .btnDiv {
+    margin-left: 44px;
+}
+
+.content .divFour .spansSix .inputDiv {
+    width: 360px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.content .divFour .spansSeven .inputDiv {
+    width: 190px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+/***************掩码设置******************/
+.contentOne {
+    width: 800px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #A8B6D1;
+    margin-bottom: 10px;
+}
+
+.contentOne div {
+    margin-bottom: 10px;
+}
+
+.contentOne div .inputs {
+    width: 100px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.contentOne div .inputDiv {
+    width: 300px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.contentOne div .selectDiv {
+    width: 130px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+.contentOne div .selectDivTow{
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+
+}
+.contentOne .lenSpan .inputDiv {
+    width: 80px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.contentOne div .spansThree {
+    margin-left: 26px;
+}
+
+.contentOne div .spansFour {
+    margin-left: 22px;
+}
+
+.contentOne div .btnList {
+    margin-right: 3px !important;
+}
+
+.contentOne label {
+    margin-right: 30px;
+}
+
+.contentOne input[type="checkbox"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: .2em;
+    width: 12px;
+    height: 12px;
+    margin-right: .2em;
+    border-radius: .2em;
+    background-color: #F5F5F5;
+    border: 1px solid #95B8E7;
+    text-indent: .15em;
+    line-height: .65; /*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*/
+}
+
+.contentOne input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+}
+
+.contentOne input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+/***************参数设置******************/
+.firstFie {
+    width: 400px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #A8B6D1;
+    margin-bottom: 10px;
+}
+
+.firstFie div {
+    margin-bottom: 10px;
+}
+
+.firstFie div .spansFour {
+    text-align: right;
+    width: 80px;
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.firstFie div .selectDiv {
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.lastFie {
+    width: 800px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #A8B6D1;
+    margin-bottom: 10px;
+}
+
+.lastFie div {
+    margin-bottom: 10px;
+}
+
+.lastFie div .spansFour {
+    text-align: right;
+    width: 50px;
+    display: inline-block;
+}
+
+.lastFie div .lastSpan .selectDiv {
+    width: 110px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.lastFie div .selectDiv {
+    width: 80px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.lastFie div .inputs {
+    width: 80px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.lastFie .btnList {
+    margin-left: 20px;
+}
+
+/***************一体机设置******************/
+.formDiv {
+    width: 960px;
+}
+
+.AIOSetL {
+    float: left;
+    width: 440px;
+    margin-right: 20px;
+}
+
+.AIOSetL fieldset {
+    padding: 5px 0 5px 10px;
+    border: 1px solid #A8B6D1;
+    margin-bottom: 3px;
+    width: 440px;
+}
+
+.AIOSetL fieldset div {
+    padding-bottom: 5px;
+}
+
+.AIOSetL fieldset div .spansFive {
+    display: inline-block;
+    margin-left: -30px;
+    text-align: right;
+    width: 110px;
+}
+
+.bigSpan .selectDiv {
+    width: 150px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.smallSpan .selectDiv {
+    width: 65px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.secSpan .selectDiv {
+    width: 100px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.smallInput .inputDiv {
+    width: 70px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.bigInput .inputDiv {
+    width: 230px;
+    /*margin-right: 30px;*/
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.ipDiv {
+    width: 160px;
+    /*margin-right: 30px;*/
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+
+.smallInputList .inputDiv {
+    width: 43px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.secInput .inputDiv {
+    width: 100px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.AIOSetL .btnList {
+    margin-left: 20px;
+}
+
+.AIOSetL .oneList {
+    margin-left: 64px;
+}
+
+.AIOSetL input[type="checkbox"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: .2em;
+    width: 12px;
+    height: 12px;
+    margin-right: .2em;
+    border-radius: .2em;
+    background-color: #F5F5F5;
+    border: 1px solid #95B8E7;
+    text-indent: .15em;
+    line-height: .65; /*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*/
+}
+
+.AIOSetL input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+}
+
+.AIOSetL input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.AIOSetR {
+    float: left;
+    width: 500px;
+}
+
+.AIOSetR fieldset {
+    padding: 14px 0 10px 10px;
+    border: 1px solid #A8B6D1;
+    margin-bottom: 3px;
+    width: 440px;
+}
+.AIOSetR fieldset .setDiv{
+    display: inline-block;
+    vertical-align: top;
+    line-height:20px;
+}
+.rightSpan .selectDiv {
+    width: 90px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    outline: none;
+}
+
+.AIOSetR .btnList {
+    margin-left: 10px;
+}
+
+.AIOSetR fieldset div {
+    margin-bottom: 5px;
+}
+
+.AIOSetR input[type="checkbox"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: .2em;
+    width: 12px;
+    height: 12px;
+    margin-right: .2em;
+    border-radius: .2em;
+    background-color: #F5F5F5;
+    border: 1px solid #95B8E7;
+    text-indent: .15em;
+    line-height: .65; /*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*/
+}
+
+.AIOSetR input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+}
+
+.AIOSetR input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.AIOSetR label {
+    margin-right: 10px;
+}
+
+.AIOSetR .btnDiv {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 8px;
+}
+
+.AIOSetR .rightBtn {
+    margin-left: 94px;
+}
+
+.secInputList .inputDiv {
+    width: 130px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.bigInputList .inputDiv {
+    width: 380px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.AIOSetR div .spansFive {
+    display: inline-block;
+    margin-left: -30px;
+    text-align: right;
+    width: 90px;
+}
+
+.AIOSetR .btnOne {
+    margin-left: 60px;
+}
+
+.AIOSetR .btnTow {
+    margin-left: 30px;
+}
+
+form .tetFie {
+    clear: none;
+    width: 900px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #A8B6D1;
+}
+
+form .tetFie div {
+    margin-bottom: 5px;
+}
+
+form .tetFie div .spansFive {
+    text-align: right;
+    width: 90px;
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.bigInputOne .inputDiv {
+    width: 400px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.bigInputTow .inputDiv {
+    width: 140px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.bigInputThree .inputDiv {
+    width: 552px;
+    display: inline-block;
+    height: 24px;
+    border:1px solid #95B8E7;
+    border-radius:5px;
+    padding-left: 5px;
+    outline: none;
+}
+
